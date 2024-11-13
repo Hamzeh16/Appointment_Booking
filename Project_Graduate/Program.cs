@@ -1,9 +1,8 @@
+using Appointment_Data.Data;
 using Microsoft.EntityFrameworkCore;
-using Project_Graduate.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options =>

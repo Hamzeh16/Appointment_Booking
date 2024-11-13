@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Project_Graduate\App_Web.csproj" />
+  </ItemGroup>
+
 </Project>
